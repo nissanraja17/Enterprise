@@ -5,11 +5,15 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Home Page</title>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script>
+	$(document).ready(function(){
+		alert("jquery 1.12.4 is working.");
+	});
+</script>
+
 </head>
 <body>
-
-home page ${message};
-
-<button id="testButton" type="button">Test</button>
+	${message} back
 </body>
 </html>
